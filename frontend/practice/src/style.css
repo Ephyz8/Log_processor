@@ -6,33 +6,3 @@ body {
     margin: 0;
     font-family: Inter, sans-serif;
 }
-
-nav {
-    display: flex;
-    align-items: center;
-    background-color: #898989;
-    height: 90px;
-    padding: 30px 25px;
-}
-
-.nav--icon, .nav--title {
-    margin: 0;
-}
-
-.nav--icon {
-    margin-right: auto;
-    color: #191648;
-    font-size: 22px;
-    font-weight: 700;
-}
-
-.nav--links {
-    margin-right: 0;
-    color: #191648;
-    font-weight: 600;
-}
-
-nav img {
-    height: 60px;
-    margin-right: 7px;
-}
