@@ -1,0 +1,41 @@
+/* Info.css */
+.Info--card {
+    width: 350px; /* Width of the business card */
+    height: auto; /* Let the height adjust to fit content */
+    background-color: white; /* Card background color */
+    border: 1px solid #ccc; /* Border for a card-like look */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+    display: flex; /* Align content flexibly */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px; /* Adds padding around content */
+    margin: 20px auto; /* Centers the card on the page */
+    overflow: hidden; /* Ensures content doesn’t overflow */
+}
+
+.Info--image {
+    width: 200px; /* Set image width */
+    height: 250px; /* Set image height */
+    border-radius: 8px; /* Subtle rounding */
+    object-fit: cover; /* Ensures the image scales without distortion */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    margin-bottom: 10px; /* Space between image and text */
+}
+
+/* Style for the h1 element */
+.Info--card h1 {
+    font-size: 1.5rem; /* Adjust font size for readability */
+    font-weight: bold; /* Make the name stand out */
+    color: #333; /* Neutral text color */
+    text-align: center; /* Center-align the text */
+    margin: 0; /* Remove default margins */
+
+}/* Style for the h3 element */
+.Info--card h3 {
+    font-size: .8rem; /* Adjust font size for readability */
+    /* font-weight: bold;  Make the name stand out */
+    color: #333; /* Neutral text color */
+    text-align: center; /* Center-align the text */
+    margin: 0; /* Remove default margins */
+}
